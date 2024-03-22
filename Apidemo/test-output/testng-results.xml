@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T21:21:47 IST" name="Default suite" finished-at="2024-01-10T21:21:54 IST" duration-ms="7307">
+  <suite started-at="2024-02-07T22:20:44 IST" name="Default suite" finished-at="2024-02-07T22:20:50 IST" duration-ms="6010">
     <groups>
     </groups>
-    <test started-at="2024-01-10T21:21:47 IST" name="Default test" finished-at="2024-01-10T21:21:54 IST" duration-ms="7307">
-      <class name="datadriventest.Datadriventestwithjsonfile">
-        <test-method signature="postmethod()[pri:0, instance:datadriventest.Datadriventestwithjsonfile@436813f3]" started-at="2024-01-10T21:21:47 IST" name="postmethod" finished-at="2024-01-10T21:21:54 IST" duration-ms="7210" status="PASS">
+    <test started-at="2024-02-07T22:20:44 IST" name="Default test" finished-at="2024-02-07T22:20:50 IST" duration-ms="6010">
+      <class name="datadriventest.Datadriventtest4">
+        <test-method signature="testPostAPI()[pri:0, instance:datadriventest.Datadriventtest4@57a3af25]" started-at="2024-02-07T22:20:44 IST" name="testPostAPI" finished-at="2024-02-07T22:20:50 IST" duration-ms="5853" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postmethod -->
-      </class> <!-- datadriventest.Datadriventestwithjsonfile -->
+        </test-method> <!-- testPostAPI -->
+      </class> <!-- datadriventest.Datadriventtest4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

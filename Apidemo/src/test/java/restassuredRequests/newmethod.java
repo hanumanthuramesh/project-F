@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
+import io.restassured.specification.RequestSpecification;
 
 public class newmethod {
 	// To set base URI or end point before all test execution

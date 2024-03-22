@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gherkinKeywords.keywordsmethod">
+      <class name="datadriventest.Datadriventest3">
         <methods>
-          <include name="setup"/>
-          <include name="createResource"/>
+          <include name="testPostAPI"/>
         </methods>
-      </class> <!-- gherkinKeywords.keywordsmethod -->
+      </class> <!-- datadriventest.Datadriventest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

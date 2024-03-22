@@ -1,5 +1,6 @@
 package restassuredRequests;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -32,7 +33,7 @@ public class apiMethods {
 		int statuscode=response.getStatusCode();
 		System.out.println("status code is"+statuscode);
 		System.out.println("Response is"+responseBody);
-		
+		Assert.assertEquals(201,statuscode);
 		
 	}
 	@Test
